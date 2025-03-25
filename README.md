@@ -12,7 +12,7 @@ JobTrackr is a RESTful job application tracking service built with Java Servlets
 
 ## Technology Stack
 - **Backend**: Java Servlets
-- **Database**: MySQL (or your chosen database)
+- **Database**: Postgres
 - **Server**: Apache Tomcat
 - **Authentication**: Session-based
 - **Document Storage**: Local file system or cloud storage integration
