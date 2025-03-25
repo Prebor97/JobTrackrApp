@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        .header { font-size: 24px; color: #333; }
+        .content { margin-top: 20px; }
+        .footer { margin-top: 30px; font-size: 14px; color: #777; }
+        .button {
+            display: inline-block; padding: 10px 20px; background-color: #007BFF; color: #FFF; text-decoration: none; border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">Reminder: Don't Forget Your Task!</div>
+    <div class="content">
+        <p>Hi {name},</p>
+        <p>This is a friendly reminder about your upcoming task:</p>
+        <p><strong>Company name:</strong><br>{company}</p>
+        <p><strong>Job title:</strong><br>{title}</p>
+        <p><strong>Task Description:</strong><br>{description}</p>
+        <p><strong>Priority:</strong><br>{priority}</p>
+        <p>Please take a moment to complete this task. If you’ve already finished it, you can <a href="http://localhost:8080/JobTrackrApp/api/tasks/{email}/{task_id}/" class="button">Mark as Completed</a> to stop receiving reminders.</p>
+    </div>
+    <div class="footer">
+        <p>Need help? Contact us at <a href="mailto:prebortamar@yahoo.com">[Support Email]</a> or visit our <a href="www.helpcentre.com">Help Center</a>.</p>
+        <p>Thank you for using JobTrackr!</p>
+        <p>Best regards,<br>JobTrackr Team</p>
+    </div>
+</div>
+</body>
+</html>
